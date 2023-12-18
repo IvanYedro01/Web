@@ -1,0 +1,303 @@
+:root{
+  --blanco: #ffffff;  
+  --azul: #02117A;
+  --azuloscuro: #303642;
+  --verde: #25d366;
+  --negro: #0c0505;
+  --gris-tenue: #6E7076;
+  --purpura-oscuro: #5333ed;
+  --turquesa: #2cd4d9;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*Header navegacion*/
+  .IconoLogo{
+    height: 70px;
+  }
+
+
+  .contenedor{
+    width: 120rem;
+    margin: 0 auto 0 auto;
+  }
+  
+  nav {
+      background-color: var(--negro);
+      overflow: hidden;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: var(--blanco);
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 40px;
+    text-decoration: none;
+    float: inline-end;
+  }
+ 
+  
+  nav a:hover {
+    background-color: var(--azul);
+    color: var(--blanco);
+  }
+
+  nav h1{
+    display: inline-block;
+    color: var(--blanco);
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    padding: 0px 40px;
+    
+  } 
+
+  #Presentacion video {
+    height:60vh; 
+    object-fit:cover; 
+    border-style: hidden;
+    width: 120rem;
+    margin: 0 auto 0 auto;
+  }
+
+
+  #video-container {
+    width: 100%;
+    height: 60vh;
+  }
+
+  #overlay-text {
+    position:absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--blanco);
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    
+  } 
+   
+
+  /*Seccion check*/
+  #Check {
+    display: flex;
+    justify-content: space-around; 
+    height: 300px;
+    width: 120rem;
+    margin: 4rem auto 0 auto;
+    color: #6E7076;
+  }
+  
+  .box {
+    text-align: center;
+   
+  }
+  
+  .box img {
+    max-width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+
+/*Seccion iconos*/
+  #Icons{
+    display: flex;
+    display: block;
+    text-align: center;
+    margin-bottom: 130px;
+    width: 120rem;
+    margin: 0 auto 0 auto;  
+    color: var(--gris-tenue);
+    }
+    
+
+  #Icons h2{
+    text-align: center;
+    font: bolder;
+    color: var(--purpura-oscuro);
+    font-size: 30px;
+  }
+
+
+  .Contenedor, .Contenedor2, .Contenedor3{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    width: 40%;
+    padding-bottom: 2%;
+    margin-left: 40px
+  }
+
+  .Contenedor h3, .Contenedor2 h3, .Contenedor3 h3{
+    text-decoration: underline;
+    font-style: italic;
+    color: var(--purpura-oscuro);
+  }
+
+
+ .imagen, .imagen2, .imagen3{
+    height: 64px;
+    margin-right: 40px;
+    max-width: 100%;
+ }
+
+
+.Contenedor h3, .Contenedor2 h3, .Contenedor3 h3{
+    text-align: left;
+}
+
+.Contenedor p, .Contenedor2 p, .Contenedor3 p{
+    text-align: left;
+    justify-content: left;
+}
+
+.Contenedor_Imagen{
+    text-align: right;
+    margin-top: -25%;
+    margin-right: 100px;
+   
+}
+
+.Caños{
+  border-radius: 10%;
+}
+
+
+/*Seccion contacto*/
+#Contacto {
+    background: linear-gradient(45deg, var(--purpura-oscuro) , var(--turquesa));
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    width: 120rem;
+    margin: 5rem auto 0 auto;
+    
+}
+
+.correo, .telefono, .ubicacion{
+  color: var(--blanco);
+  padding: 20px;
+  padding-top: 0%;
+  text-align: center;
+  
+}
+
+.correo p, .telefono p, .ubicacion p{
+  font-size: 13px;
+}
+
+.contacto img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+
+/*Seccion widget Wpp*/
+
+#whatsapp-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--verde);
+    color: var(--blanco);
+    border-radius: 10%;
+    cursor:pointer;
+    width: 100px;
+}
+
+/*Seccion footer*/
+footer {
+    background: white;
+    color: black;
+    text-align: center;
+    padding-bottom: 2rem;
+    width: 120rem;
+    margin: 0 auto 0 auto;
+
+}
+
+#logo-footer{
+  width: 120rem;
+  height: 5rem;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+}
+
+#logo-footer img{
+  width: 150px;
+}
+
+#logo-footer h5{
+  text-align: center;
+  margin-top: 10px;
+}
+
+#developer-footer{
+  width: 120rem;
+  height: 1rem;
+  background-color: white;
+  text-align: center;
+}
+
+@media  (max-width: 767px) {
+  .contenedor{
+    width: 100%;
+  }
+  .IconoLogo{
+    height: 40px;
+  }
+  nav a{
+  text-align: center;
+  float:initial;
+  margin-right: 300px;
+  }
+  #Presentacion video{
+    width: 100%;
+  }
+  #video-container{
+    width: 100%;
+    height: auto;
+  }
+
+  #overlay-text{
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    font-size: 1.5em;
+  }
+ }
+
+
+ @media screen and (min-width: 768) and (max-width:991px){
+  #overlay-text {
+    font-size: 10rem;
+ 
+  }
+
+}
+
+@media screen and (min-width:1200px) and (max-width: 1919px){
+
+}
+
+@media screen and (min-width:1920px){
+
+}

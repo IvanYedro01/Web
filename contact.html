@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+    <div id="Header">
+        <nav class="contenedor">
+            <img class="IconoLogo" src="img/IconoLogo2.png" alt="Icono">
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contact.html">Contacto</a>
+            <a href="products.html">Productos</a>
+            <a href="index.html">Inicio</a>
+        </nav>
+    </div>
+
+    <section class="contact">
+        <h1>Formulario de consultas</h1>
+        <div class="u-wrapper">
+          <div class="contact-content">
+    
+            <form id="form" action="" class="form">
+              <h3 class="tag"><span>Contactanos</span></h3>
+              <label for="name">Nombre <span>*</span></label>
+              <input name="name" required type="text" id="name" placeholder="Nombre">
+              <label for="email">Correo electrónico <span>*</span></label>
+              <input name="email" type="text" id="email" required placeholder="Email">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+              <button type="submit" class="btn-enviar">Enviar mensaje</button>
+            </form>
+            <a href="mailto:exiplast.pvc@gmail.com" id="destino"></a>
+          </div>
+        </div>
+      </section>
+
+
+    <script src="javascript/formulario.js"> </script>
+
+    <section id="Contacto">
+      <div class="correo">
+          <img src="img/Icon_Correo.png" alt="Correo">
+          <h5>Correo: <a href="mailto:Exiplast.pvc@gmail.com">Exiplast.pvc@gmail.com</a></h5>
+
+      </div>
+      
+      <div class="telefono">
+          <img src="img/Icon_Phone.png" alt="Telefono">
+          <h5>Telefono: 11-5324-2777</h5>
+          
+      </div>
+      
+      <div class="ubicacion">
+          <img src="img/Icon_Ubicacion.png" alt="Ubicacion">
+          <h5>Ubicacion: Lanus, Bs. As.</h5>
+         
+      </div>
+
+  </section>
+
+
+  <div id="whatsapp-widget" onclick="abrirWhatsApp()">
+      <img src="whatsapp-icon.png" alt="WhatsApp">
+    </div>
+    
+    <script src="javascript/WhatsApp.js"> </script>
+
+
+  <footer>
+      <div id="logo-footer">
+          <img src="img/IconoLogo2.png" alt="">
+         <h5>Copyright Exiplast - Todos Los Derechos Reservados</h5> 
+      </div>
+      <div id="developer-footer">
+          <h5>Developed By Ivan Yedro</h5>
+      </div>
+  </footer>
+        
+</body>
+</html>

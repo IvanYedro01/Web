@@ -1,0 +1,239 @@
+:root{
+  --blanco: #ffffff;  
+  --azul: #02117A;
+  --azuloscuro: #303642;
+  --verde: #25d366;
+  --negro: #0c0505;
+  --gris-tenue: #6E7076;
+  --purpura-oscuro: #5333ed;
+  --turquesa: #2cd4d9;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Header navegacion*/
+.IconoLogo{
+  height: 70px;
+}
+
+
+.contenedor{
+  width: 120rem;
+  margin: 0 auto 0 auto;
+}
+
+nav {
+    background-color: var(--negro);
+    overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: var(--blanco);
+  font-weight: bold;
+  text-align: center;
+  padding: 30px 40px;
+  text-decoration: none;
+  float: inline-end;
+}
+
+nav a:hover {
+  background-color: var(--azul);
+  color: var(--blanco);
+}
+
+nav h1{
+  display: inline-block;
+  color: var(--blanco);
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+  padding: 0px 40px;
+  
+} 
+
+#titulo{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+/*Seccion de galeria de fotos*/
+#titulo h1{
+  color: var(--purpura-oscuro);
+}
+
+#ventajas{
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 770px;
+}
+
+#ventajas li{
+  padding-top: 40px;
+  align-items: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr); /* 3 columnas en la cuadrícula */
+    gap: 10px; /* Espacio entre las imágenes */
+    width: 100rem;
+    margin: 5rem auto auto 20rem;
+  }
+
+  .gallery img {
+    width: 30rem;
+    height: auto;
+    border-radius: 8px; /* Bordes redondos para las imágenes */
+    transition: transform 0.5s;
+  }
+
+  .gallery img:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem var(--turquesa);
+    margin: 5px;
+  }
+
+  .gallery h2{
+    margin-left: 100px;
+    color: var(--gris-tenue);
+ 
+  }
+  /*Seccion solapas*/
+
+  .solapa, .solapa2, .solapa3, .solapa4, .solapa5, .solapa6 {
+    background-color: var(--purpura-oscuro);
+    cursor: pointer;
+    padding: 30px;
+    width: 300px;
+    text-align: left;
+    border: 1px solid #ccc;
+    color: var(--blanco);
+    margin-top: 100px;
+    margin-left: 780px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 3rem;
+  }
+
+  .content, .content2, .content3, .content4, .content5, .content6 {
+    display: none;
+    padding: 30px;
+    border-top: 1px solid #ccc;
+    width: 1350px;
+    margin-left: 250px;
+    text-align: center;
+  }
+
+  .content p, .content2 p, .content3 p, .content4 p, .content5 p, .content6 p{
+    margin-left:10px;
+    text-align: center;
+  }
+
+  
+  #h2-medidas{
+    text-align: center;
+    margin-top: 100px;
+    text-decoration:underline;
+    font-size: 1.5rem;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: linear-gradient(45deg, var(--purpura-oscuro) , var(--turquesa));
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: skew(-15deg);
+  }
+
+
+  /*Seccion contacto*/
+#Contacto {
+  background: linear-gradient(45deg, var(--purpura-oscuro) , var(--turquesa));
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  width: 120rem;
+  margin: 5rem auto 0 auto;
+}
+
+.correo, .telefono, .ubicacion{
+color: var(--blanco);
+padding: 20px;
+padding-top: 0%;
+text-align: center;
+
+}
+
+.correo p, .telefono p, .ubicacion p{
+font-size: 13px;
+}
+
+.contacto img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0px;
+  align-items: center;
+  max-width: 100%;
+  
+}
+
+
+/*Seccion widget Wpp*/
+
+#whatsapp-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--verde);
+  color: var(--blanco);
+  border-radius: 10%;
+  cursor:pointer;
+  width: 100px;
+}
+
+/*Seccion footer*/
+footer {
+  background: white;
+  color: black;
+  text-align: center;
+  padding-bottom: 2rem;
+  width: 120rem;
+  margin: 0 auto 0 auto;
+
+}
+
+#logo-footer{
+width: 120rem;
+height: 5rem;
+margin-bottom: 10px;
+background-color: black;
+color: white;
+}
+
+#logo-footer img{
+width: 150px;
+}
+
+#logo-footer h5{
+text-align: center;
+margin-top: 10px;
+}
+
+#developer-footer{
+width: 120rem;
+height: 1rem;
+background-color: white;
+text-align: center;
+}
