@@ -342,16 +342,102 @@ footer {
   #developer-footer{
   width: 100%;
   }
+}
+
+
+ @media  (min-width: 768) and (max-width:991px){
+  .contenedor{
+    width: 100%;
+  }
+  .IconoLogo{
+    height: 40px;
+  }
+  nav a{
+  text-align: center;
+  float:initial;
+  
+  }
+  #Presentacion video{
+    width: 100%;
+  }
+  #video-container{
+    width: 100%;
+    height: auto;
   }
 
+  #overlay-text{
+    position:absolute;
+    top: 80%;
+    left: 90%;
+    font-size: 1em;
+    
+  }
 
- @media screen and (min-width: 768) and (max-width:991px){
-  
+  #Check{
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
 
+  .box img{
+    width: 3em;
+  }
+
+  #Icons{
+    width: 100%;
+  }
+
+  #Icons h2{
+    font-size: 30px;
+  }
+
+  .Contenedor, .Contenedor2, .Contenedor3{
+    width: 20%;
+  }
+
+  .imagen, .imagen2, .imagen3{
+    height: 40px;
+    margin-right: 40px;
+    max-width: 100%;
+  }
+
+  .Contenedor_Imagen{
+    text-align: right;;
+  } 
+
+  .Caños{
+    width: 20em;
+    margin-left: 40px;
+    margin-top: 100px;
+  }
+
+  #Contacto{
+    width: 100%;
+  }
+
+  .correo p, .telefono p, .ubicacion p{
+    font-size: 8px;
+  }
+
+  #whatsapp-widget {
+    width: 100px;
+    position: fixed; 
+  }
+  footer {
+    width: 100%;
+  }
+
+  #logo-footer{
+  width: 100%;
+  height: 40px;
+  }
+
+  #developer-footer{
+  width: 100%;
+  }
 }
 
 @media screen and (min-width:1200px) and (max-width: 1919px){
-
+  
 }
 
 @media screen and (min-width:1920px){

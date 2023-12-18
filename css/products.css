@@ -61,26 +61,11 @@ nav h1{
   
 } 
 
-#titulo{
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-
 /*Seccion de galeria de fotos*/
 #titulo h1{
   color: var(--purpura-oscuro);
-}
-
-#ventajas{
-  font-size: 20px;
-  margin-top: 100px;
-  margin-left: 770px;
-}
-
-#ventajas li{
-  padding-top: 40px;
-  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .gallery {
@@ -110,6 +95,19 @@ nav h1{
     color: var(--gris-tenue);
  
   }
+
+  
+  #ventajas{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 770px;
+  }
+
+  #ventajas li{
+    padding-top: 40px;
+    align-items: center;
+  }
+
   /*Seccion solapas*/
 
   .solapa, .solapa2, .solapa3, .solapa4, .solapa5, .solapa6 {
@@ -237,3 +235,107 @@ height: 1rem;
 background-color: white;
 text-align: center;
 }
+
+
+
+@media  (max-width: 767px) {
+  .contenedor{
+    width: 100%;
+  }
+  .IconoLogo{
+    height: 40px;
+  }
+  nav a{
+  text-align: center;
+  float:initial;
+  
+  }
+  #Presentacion video{
+    width: 100%;
+  }
+  #video-container{
+    width: 100%;
+    height: auto;
+  }
+
+  #overlay-text{
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    font-size: 1.5em;
+  }
+
+  .gallery {
+    width:100%;
+    margin: 0px auto;
+  }
+
+  .gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px; /* Bordes redondos para las imágenes */
+    transition: transform 0.5s;
+  }
+
+  .gallery img:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem var(--turquesa);
+    margin: 5px;
+  }
+
+  .gallery h2{
+    margin-left: 10px;
+    color: var(--gris-tenue);
+ 
+  }
+
+  #ventajas{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  .solapa, .solapa2, .solapa3, .solapa4, .solapa5, .solapa6 {
+    padding: 20px;
+    width: 100%;
+    margin-left: 0px;
+  
+  }
+
+  .content, .content2, .content3, .content4, .content5, .content6 {
+    width: 100%;
+    margin-left: 0px;
+
+  }
+
+  .content p, .content2 p, .content3 p, .content4 p, .content5 p, .content6 p{
+    margin-left:0px;
+
+  }
+
+
+  #Contacto{
+    width: 100%;
+  }
+
+  .correo p, .telefono p, .ubicacion p{
+    font-size: 8px;
+  }
+
+  #whatsapp-widget {
+    width: 100px;
+    position: fixed; 
+  }
+  footer {
+    width: 100%;
+  }
+
+  #logo-footer{
+  width: 100%;
+  height: 40px;
+  }
+
+  #developer-footer{
+  width: 100%;
+  }
+  }
