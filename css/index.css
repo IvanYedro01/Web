@@ -66,7 +66,7 @@ body {
     height:60vh; 
     object-fit:cover; 
     border-style: hidden;
-    width: 120rem;
+    width: 100%;
     margin: 0 auto 0 auto;
   }
 
@@ -254,6 +254,8 @@ footer {
   text-align: center;
 }
 
+/*Media queries*/
+
 @media  (max-width: 767px) {
   .contenedor{
     width: 100%;
@@ -283,7 +285,7 @@ footer {
 
   #Check{
     width: 100%;
-    margin: 0 auto 0 auto;
+    margin: 50px auto 0 auto;
   }
 
   .box img{
@@ -344,18 +346,13 @@ footer {
   }
 }
 
+ @media  (min-width: 768px) and (max-width:1200px){
 
- @media  (min-width: 768) and (max-width:991px){
   .contenedor{
     width: 100%;
   }
   .IconoLogo{
     height: 40px;
-  }
-  nav a{
-  text-align: center;
-  float:initial;
-  
   }
   #Presentacion video{
     width: 100%;
@@ -367,15 +364,15 @@ footer {
 
   #overlay-text{
     position:absolute;
-    top: 80%;
-    left: 90%;
-    font-size: 1em;
+    top: 40%;
+    left: 55%;
+    font-size: 1.5em;
     
   }
 
   #Check{
     width: 100%;
-    margin: 0 auto 0 auto;
+    margin: 50px auto 0 auto;
   }
 
   .box img{
@@ -391,7 +388,7 @@ footer {
   }
 
   .Contenedor, .Contenedor2, .Contenedor3{
-    width: 20%;
+    width: 50%;
   }
 
   .imagen, .imagen2, .imagen3{
@@ -405,7 +402,94 @@ footer {
   } 
 
   .Caños{
-    width: 20em;
+    width: 25em;
+    margin-left: 40px;
+    margin-top: 200px;
+  }
+
+  #Contacto{
+    width: 100%;
+  }
+
+  .correo p, .telefono p, .ubicacion p{
+    font-size: 8px;
+  }
+
+  #whatsapp-widget {
+    width: 100px;
+    position: fixed; 
+  }
+  footer {
+    width: 100%;
+  }
+
+  #logo-footer{
+  width: 100%;
+  height: 40px;
+  }
+
+  #developer-footer{
+  width: 100%;
+  }
+}
+
+@media (min-width:1200px) and (max-width: 1600px){
+  
+  .contenedor{
+    width: 100%;
+  }
+  .IconoLogo{
+    height: 50px;
+  }
+  #Presentacion video{
+    width: 100%;
+  }
+  #video-container{
+    width: 100%;
+    height: auto;
+  }
+
+  #overlay-text{
+    position:absolute;
+    top: 40%;
+    left: 55%;
+    font-size: 1.5em;
+    
+  }
+
+  #Check{
+    width: 100%;
+    margin: 50px auto 0 auto;
+  }
+
+  .box img{
+    width: 3em;
+  }
+
+  #Icons{
+    width: 100%;
+  }
+
+  #Icons h2{
+    font-size: 30px;
+  }
+
+  .Contenedor, .Contenedor2, .Contenedor3{
+    width: 50%;
+  }
+
+  .imagen, .imagen2, .imagen3{
+    height: 40px;
+    margin-right: 40px;
+    max-width: 100%;
+  }
+
+  .Contenedor_Imagen{
+    text-align: right;;
+  } 
+
+  .Caños{
+    width: 30em;
     margin-left: 40px;
     margin-top: 100px;
   }
@@ -436,10 +520,89 @@ footer {
   }
 }
 
-@media screen and (min-width:1200px) and (max-width: 1919px){
-  
-}
+@media (min-width:1600px) and (max-width:1920px){
 
-@media screen and (min-width:1920px){
+  .contenedor{
+    width: 100%;
+  }
+  .IconoLogo{
+    height: 50px;
+  }
+  #Presentacion video{
+    width: 100%;
+  }
+  #video-container{
+    width: 100%;
+    height: auto;
+  }
 
+  #overlay-text{
+    position:absolute;
+    top: 40%;
+    left: 55%;
+    font-size: 1.5em;
+    
+  }
+
+  #Check{
+    width: 100%;
+    margin: 50px auto 0 auto;
+  }
+
+  .box img{
+    width: 3em;
+  }
+
+  #Icons{
+    width: 100%;
+  }
+
+  #Icons h2{
+    font-size: 30px;
+  }
+
+  .Contenedor, .Contenedor2, .Contenedor3{
+    width: 50%;
+  }
+
+  .imagen, .imagen2, .imagen3{
+    height: 40px;
+    margin-right: 40px;
+    max-width: 100%;
+  }
+
+  .Contenedor_Imagen{
+    text-align: right;;
+  } 
+
+  .Caños{
+    width: 30em;
+    margin-left: 40px;
+    margin-top: 100px;
+  }
+
+  #Contacto{
+    width: 100%;
+  }
+
+  .correo p, .telefono p, .ubicacion p{
+    font-size: 8px;
+  }
+
+  #whatsapp-widget {
+    width: 100px;
+    position: fixed; 
+  }
+  footer {
+    width: 100%;
+  }
+
+  #logo-footer{
+  width: 100%;
+  height: 40px;
+  }
+
+  #developer-footer{
+  width: 100%;
+  }
 }
