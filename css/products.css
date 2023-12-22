@@ -540,7 +540,7 @@ text-align: center;
   .gallery {
       gap: 5px; /* Espacio entre las imágenes */
       width: 90%;
-      margin: 5rem auto auto 8rem;
+      margin: 5rem auto auto 10rem;
     }
   
     #imagen1, #imagen2, #imagen3, #imagen4, #imagen5, #imagen6{
