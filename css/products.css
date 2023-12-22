@@ -286,20 +286,20 @@ footer {
     
   #ventajas{
     font-size: 12px;
-    margin-left: 0px;
+    margin-left: 10px;
     }
     
   .solapa, .solapa2, .solapa3, .solapa4, .solapa5, .solapa6 {
     padding: 30px;
     width: 70%;
     text-align: center;
-    margin-left: 0px;
+    margin-left: 30px;
     }
   
   .content, .content2, .content3, .content4, .content5, .content6 {
     width: 70%;
     text-align: center;
-    margin-left: 0px;
+    margin-left: 20px;
     }
   
   .content p, .content2 p, .content3 p, .content4 p, .content5 p, .content6 p{
@@ -313,7 +313,7 @@ footer {
   #h2-medidas{
     width: 70%;
     font-size: 1rem;
-    margin-left: 30px;
+    margin-left: 50px;
     }
 
   #Contacto{
