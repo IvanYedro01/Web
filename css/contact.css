@@ -31,12 +31,11 @@
   }
   
   nav {
-      background-color: var(--negro);
-      overflow: hidden;
+    background-color: var(--negro);
+    overflow: hidden;
   }
   
   nav a {
-    float: left;
     display: block;
     color: var(--blanco);
     font-weight: bold;
@@ -127,33 +126,32 @@
 
   /*Seccion contacto*/
 #Contacto {
-  background: linear-gradient(45deg, var(--purpura-oscuro) , var(--turquesa));
-  display: flex;
-  justify-content: space-around;
-  padding-top: 30px;
-  width: 120rem;
-  margin: 5rem auto 0 auto;
+    background: linear-gradient(45deg, var(--purpura-oscuro) , var(--turquesa));
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    width: 120rem;
+    margin: 5rem auto 0 auto;
   
 }
 
 .correo, .telefono, .ubicacion{
-color: var(--blanco);
-padding: 20px;
-padding-top: 0%;
-text-align: center;
+    color: var(--blanco);
+    padding: 20px;
+    padding-top: 0%;
+    text-align: center;
 
 }
 
 .correo p, .telefono p, .ubicacion p{
-font-size: 13px;
+    font-size: 13px;
 }
 
 .contacto img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 0px;
-  align-items: center;
-  max-width: 100%;
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+    max-width: 100%;
   
 }
 
@@ -161,49 +159,49 @@ font-size: 13px;
 /*Seccion widget Wpp*/
 
 #whatsapp-widget {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: var(--verde);
-  color: var(--blanco);
-  border-radius: 10%;
-  cursor:pointer;
-  width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--verde);
+    color: var(--blanco);
+    border-radius: 10%;
+    cursor:pointer;
+    width: 100px;
 }
 
 /*Seccion footer*/
 footer {
-  background: white;
-  color: black;
-  text-align: center;
-  padding-bottom: 2rem;
-  width: 120rem;
-  margin: 0 auto 0 auto;
+    background: white;
+    color: black;
+    text-align: center;
+    padding-bottom: 2rem;
+    width: 120rem;
+    margin: 0 auto 0 auto;
 
 }
 
 #logo-footer{
-width: 120rem;
-height: 5rem;
-margin-bottom: 10px;
-background-color: black;
-color: white;
+    width: 120rem;
+    height: 5rem;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
 }
 
 #logo-footer img{
-width: 150px;
+    width: 150px;
 }
 
 #logo-footer h5{
-text-align: center;
-margin-top: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 #developer-footer{
-width: 120rem;
-height: 1rem;
-background-color: white;
-text-align: center;
+    width: 120rem;
+    height: 1rem;
+    background-color: white;
+    text-align: center;
 }
 
 /*Media queries*/
@@ -216,8 +214,8 @@ text-align: center;
     height: 40px;
   }
   nav a{
-  text-align: center;
-  float:initial;
+    text-align: center;
+    float:initial;
   }
   #Contacto{
     width: 100%;
@@ -237,12 +235,12 @@ text-align: center;
   }
 
   #logo-footer{
-  width: 100%;
-  height: 40px;
+    width: 100%;
+    height: 40px;
   }
 
   #developer-footer{
-  width: 100%;
+    width: 100%;
   }
 }
 
@@ -275,12 +273,12 @@ text-align: center;
   }
 
   #logo-footer{
-  width: 100%;
-  height: 40px;
+    width: 100%;
+    height: 40px;
   }
 
   #developer-footer{
-  width: 100%;
+    width: 100%;
   }
 }
 
@@ -313,12 +311,12 @@ text-align: center;
   }
 
   #logo-footer{
-  width: 100%;
-  height: 40px;
+    width: 100%;
+    height: 40px;
   }
 
   #developer-footer{
-  width: 100%;
+    width: 100%;
   }
 }
 
@@ -351,11 +349,11 @@ text-align: center;
   }
 
   #logo-footer{
-  width: 100%;
-  height: 40px;
+    width: 100%;
+    height: 40px;
   }
 
   #developer-footer{
-  width: 100%;
+    width: 100%;
   }
 }

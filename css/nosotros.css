@@ -1,12 +1,12 @@
 :root{
-  --blanco: #ffffff;  
-  --azul: #02117A;
-  --azuloscuro: #303642;
-  --verde: #25d366;
-  --negro: #0c0505;
-  --gris-tenue: #6E7076;
-  --purpura-oscuro: #5333ed;
-  --turquesa: #2cd4d9;
+    --blanco: #ffffff;  
+    --azul: #02117A;
+    --azuloscuro: #303642;
+    --verde: #25d366;
+    --negro: #0c0505;
+    --gris-tenue: #6E7076;
+    --purpura-oscuro: #5333ed;
+    --turquesa: #2cd4d9;
 }
   
   html{
@@ -32,12 +32,11 @@
   }
   
   nav {
-      background-color: var(--negro);
-      overflow: hidden;
+    background-color: var(--negro);
+    overflow: hidden;
   }
   
   nav a {
-    float: left;
     display: block;
     color: var(--blanco);
     font-weight: bold;
@@ -73,15 +72,15 @@
   
 
 #titulo-nosotros h1{
-  position:absolute;
-  top: 75%;
-  left: 39%;
-  font-size: 50px;
+    position:absolute;
+    top: 75%;
+    left: 39%;
+    font-size: 50px;
 }
 
 #img img{
-  width: 80rem;
-  height: 40rem;
+    width: 80rem;
+    height: 40rem;
 }
 /*Seccion introduccion*/
 
@@ -118,15 +117,15 @@
   }
   
   .correo, .telefono, .ubicacion{
-  color: var(--blanco);
-  padding: 20px;
-  padding-top: 0%;
-  text-align: center;
+    color: var(--blanco);
+    padding: 20px;
+    padding-top: 0%;
+    text-align: center;
   
   }
   
   .correo p, .telefono p, .ubicacion p{
-  font-size: 13px;
+    font-size: 13px;
   }
   
   .contacto img {
@@ -164,46 +163,46 @@
   }
   
   #logo-footer{
-  width: 120rem;
-  height: 5rem;
-  margin-bottom: 10px;
-  background-color: black;
-  color: white;
+    width: 120rem;
+    height: 5rem;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
   }
   
   #logo-footer img{
-  width: 150px;
+      width: 150px;
   }
   
   #logo-footer h5{
-  text-align: center;
-  margin-top: 10px;
+      text-align: center;
+      margin-top: 10px;
   }
   
   #developer-footer{
-  width: 120rem;
-  height: 1rem;
-  background-color: white;
-  text-align: center;
+      width: 120rem;
+      height: 1rem;
+      background-color: white;
+      text-align: center;
   }
   
   /*Media queries*/
 
   @media  (max-width: 767px){
-    .contenedor{
-      width: 100%;
+  .contenedor{
+    width: 100%;
     }
-    .IconoLogo{
-      height: 40px;
+  .IconoLogo{
+    height: 40px;
     }
-    nav a{
+  nav a{
     text-align: center;
     float:initial;
     
     }
-    #titulo{
-      width: 100%;
-      height: 100%;
+  #titulo{
+    width: 100%;
+    height: 100%;
     }
   #titulo-nosotros h1{
     top: auto;
@@ -231,43 +230,43 @@
     margin-right: 20px;
   }
 
-    #Contacto{
-      width: 100%;
-      display: block;
+  #Contacto{
+    width: 100%;
+    display: block;
     }
   
-    .correo p, .telefono p, .ubicacion p{
-      font-size: 8px;
+  .correo p, .telefono p, .ubicacion p{
+    font-size: 8px;
     }
   
-    #whatsapp-widget {
-      width: 100px;
-      position: fixed; 
+  #whatsapp-widget {
+    width: 100px;
+    position: fixed; 
     }
-    footer {
-      width: 100%;
+  footer {
+    width: 100%;
     }
   
-    #logo-footer{
+  #logo-footer{
     width: 100%;
     height: 40px;
     }
   
-    #developer-footer{
+  #developer-footer{
     width: 100%;
     }
   }
 
   @media (min-width: 768px) and (max-width:1200px){
-    .contenedor{
-      width: 100%;
+  .contenedor{
+    width: 100%;
     }
-    .IconoLogo{
-      height: 40px;
+  .IconoLogo{
+    height: 40px;
     }
-    #titulo{
-      width: 100%;
-      height: 100%;
+  #titulo{
+    width: 100%;
+    height: 100%;
     }
   #titulo-nosotros h1{
     top: auto;
@@ -294,42 +293,42 @@
     margin-right: 20px;
   }
 
-    #Contacto{
-      width: 100%;
+  #Contacto{
+    width: 100%;
     }
   
-    .correo p, .telefono p, .ubicacion p{
-      font-size: 8px;
+  .correo p, .telefono p, .ubicacion p{
+    font-size: 8px;
     }
   
-    #whatsapp-widget {
-      width: 100px;
-      position: fixed; 
+  #whatsapp-widget {
+    width: 100px;
+    position: fixed; 
     }
-    footer {
-      width: 100%;
+  footer {
+    width: 100%;
     }
   
-    #logo-footer{
+  #logo-footer{
     width: 100%;
     height: 40px;
     }
   
-    #developer-footer{
+  #developer-footer{
     width: 100%;
     }
   }
 
   @media (min-width:1200px) and (max-width: 1600px){
-    .contenedor{
-      width: 100%;
+  .contenedor{
+    width: 100%;
     }
-    .IconoLogo{
-      height: 50px;
+  .IconoLogo{
+    height: 50px;
     }
-    #titulo{
-      width: 100%;
-      height: 100%;
+  #titulo{
+    width: 100%;
+    height: 100%;
     }
   #titulo-nosotros h1{
     top: auto;
@@ -356,42 +355,42 @@
     margin-right: 20px;
   }
 
-    #Contacto{
-      width: 100%;
+  #Contacto{
+    width: 100%;
     }
   
-    .correo p, .telefono p, .ubicacion p{
-      font-size: 8px;
+  .correo p, .telefono p, .ubicacion p{
+    font-size: 8px;
     }
   
-    #whatsapp-widget {
-      width: 100px;
-      position: fixed; 
+  #whatsapp-widget {
+    width: 100px;
+    position: fixed; 
     }
-    footer {
-      width: 100%;
+  footer {
+    width: 100%;
     }
   
-    #logo-footer{
+  #logo-footer{
     width: 100%;
     height: 40px;
     }
-  
-    #developer-footer{
+
+  #developer-footer{
     width: 100%;
     }
   }
 
   @media (min-width:1600px) and (max-width:1920px){
-    .contenedor{
-      width: 100%;
+  .contenedor{
+    width: 100%;
     }
-    .IconoLogo{
-      height: 50px;
+  .IconoLogo{
+    height: 50px;
     }
-    #titulo{
-      width: 100%;
-      height: 100%;
+  #titulo{
+    width: 100%;
+    height: 100%;
     }
   #titulo-nosotros h1{
     top: auto;
@@ -401,7 +400,7 @@
   
   #img img{
     width: 100%;
-    height: 100%;
+    height: 50rem;
   }
   .introduccion, .mision, .vision{
     width: 100%;
@@ -418,28 +417,28 @@
     margin-right: 20px;
   }
 
-    #Contacto{
-      width: 100%;
+  #Contacto{
+    width: 100%;
     }
   
-    .correo p, .telefono p, .ubicacion p{
-      font-size: 8px;
+  .correo p, .telefono p, .ubicacion p{
+    font-size: 8px;
     }
   
-    #whatsapp-widget {
-      width: 100px;
-      position: fixed; 
+  #whatsapp-widget {
+    width: 100px;
+    position: fixed; 
     }
-    footer {
-      width: 100%;
+  footer {
+    width: 100%;
     }
   
-    #logo-footer{
+  #logo-footer{
     width: 100%;
     height: 40px;
     }
   
-    #developer-footer{
+  #developer-footer{
     width: 100%;
     }
   }

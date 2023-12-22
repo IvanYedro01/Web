@@ -1,12 +1,12 @@
 :root{
-  --blanco: #ffffff;  
-  --azul: #02117A;
-  --azuloscuro: #303642;
-  --verde: #25d366;
-  --negro: #0c0505;
-  --gris-tenue: #6E7076;
-  --purpura-oscuro: #5333ed;
-  --turquesa: #2cd4d9;
+    --blanco: #ffffff;  
+    --azul: #02117A;
+    --azuloscuro: #303642;
+    --verde: #25d366;
+    --negro: #0c0505;
+    --gris-tenue: #6E7076;
+    --purpura-oscuro: #5333ed;
+    --turquesa: #2cd4d9;
 }
 
 html{
@@ -31,12 +31,11 @@ body {
   }
   
   nav {
-      background-color: var(--negro);
-      overflow: hidden;
+    background-color: var(--negro);
+    overflow: hidden;
   }
 
   nav a {
-    float: left;
     display: block;
     color: var(--blanco);
     font-weight: bold;
@@ -113,10 +112,8 @@ body {
 
 /*Seccion iconos*/
   #Icons{
-    display: flex;
     display: block;
     text-align: center;
-    margin-bottom: 130px;
     width: 120rem;
     margin: 0 auto 0 auto;  
     color: var(--gris-tenue);
@@ -171,7 +168,7 @@ body {
 }
 
 .Caños{
-  border-radius: 10%;
+    border-radius: 10%;
 }
 
 
@@ -187,15 +184,15 @@ body {
 }
 
 .correo, .telefono, .ubicacion{
-  color: var(--blanco);
-  padding: 20px;
-  padding-top: 0%;
-  text-align: center;
-  
+    color: var(--blanco);
+    padding: 20px;
+    padding-top: 0%;
+    text-align: center;
+    
 }
 
 .correo p, .telefono p, .ubicacion p{
-  font-size: 13px;
+    font-size: 13px;
 }
 
 .contacto img {
@@ -231,27 +228,27 @@ footer {
 }
 
 #logo-footer{
-  width: 120rem;
-  height: 5rem;
-  margin-bottom: 10px;
-  background-color: black;
-  color: white;
+    width: 120rem;
+    height: 5rem;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
 }
 
 #logo-footer img{
-  width: 150px;
+    width: 150px;
 }
 
 #logo-footer h5{
-  text-align: center;
-  margin-top: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 #developer-footer{
-  width: 120rem;
-  height: 1rem;
-  background-color: white;
-  text-align: center;
+    width: 120rem;
+    height: 1rem;
+    background-color: white;
+    text-align: center;
 }
 
 /*Media queries*/
@@ -264,9 +261,9 @@ footer {
     height: 40px;
   }
   nav a{
-  text-align: center;
-  float:initial;
-  
+    text-align: center;
+    float:initial;
+    
   }
   #Presentacion video{
     width: 100%;
@@ -338,12 +335,12 @@ footer {
   }
 
   #logo-footer{
-  width: 100%;
-  height: 40px;
+    width: 100%;
+    height: 40px;
   }
 
   #developer-footer{
-  width: 100%;
+    width: 100%;
   }
 }
 
@@ -425,12 +422,12 @@ footer {
   }
 
   #logo-footer{
-  width: 100%;
-  height: 40px;
+    width: 100%;
+    height: 40px;
   }
 
   #developer-footer{
-  width: 100%;
+    width: 100%;
   }
 }
 
@@ -512,12 +509,12 @@ footer {
   }
 
   #logo-footer{
-  width: 100%;
-  height: 40px;
+    width: 100%;
+    height: 40px;
   }
 
   #developer-footer{
-  width: 100%;
+    width: 100%;
   }
 }
 
@@ -599,11 +596,11 @@ footer {
   }
 
   #logo-footer{
-  width: 100%;
-  height: 40px;
+    width: 100%;
+    height: 40px;
   }
 
   #developer-footer{
-  width: 100%;
+    width: 100%;
   }
 }
